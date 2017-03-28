@@ -25,8 +25,8 @@
     "node-uuid": "^1.4.7"
   },
   "scripts": {
-    "patch": "npm version patch && git push --follow-tags && npm publish",
-    "minor": "npm version minor && git push --follow-tags && npm publish"
+    "patch": "npm version patch && git push --follow-tags",
+    "minor": "npm version minor && git push --follow-tags"
   },
   "author": ""
 }
