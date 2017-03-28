@@ -3,15 +3,12 @@
   "version": "0.1.4",
   "description": "",
   "bin": {
-    "slate-replicator": "bin/run.js",
-    "slate-loadPerfTestData": "test/loadPerfTestData.js",
-    "slate-loadPersonData": "test/loadPersonData.js",
-    "slate-eventsDiff": "test/eventsDiff.js"
-  },
-  "repository": "panosoft/slate-replicator",
+    "slate-replicator": "bin/run.js"
+   },
   "license": "Unlicense",
   "dependencies": {
-    "@panosoft/slate-db-utils": "^0.1.6",
+    "@elm-slate/db-utils": "git://github.com/elm-slate/db-utils.git",
+    "@elm-slate/db-events": "git://github.com/elm-slate/db-events.git",
     "bunyan": "^1.8.0",
     "bunyan-format": "^0.2.1",
     "co": "^4.6.0",
@@ -19,10 +16,6 @@
     "commander": "^2.9.0",
     "is_js": "^0.8.0",
     "ramda": "^0.19.1"
-  },
-  "devDependencies": {
-    "faker": "^3.0.1",
-    "node-uuid": "^1.4.7"
   },
   "scripts": {
     "patch": "npm version patch && git push --follow-tags",
