@@ -1,5 +1,5 @@
 {
-  "name": "@panosoft/slate-replicator",
+  "name": "@elm-slate/slate-replicator",
   "version": "0.1.4",
   "description": "",
   "bin": {
