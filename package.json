@@ -1,6 +1,6 @@
 {
   "name": "@elm-slate/slate-replicator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "bin": {
     "slate-replicator": "bin/run.js"
