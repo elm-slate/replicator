@@ -1,10 +1,10 @@
 {
   "name": "@elm-slate/slate-replicator",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "",
   "bin": {
     "slate-replicator": "bin/run.js"
-   },
+  },
   "license": "Unlicense",
   "dependencies": {
     "@elm-slate/db-utils": "git://github.com/elm-slate/db-utils.git",
