@@ -7,15 +7,15 @@
   },
   "license": "Unlicense",
   "dependencies": {
-    "@elm-slate/db-utils": "git://github.com/elm-slate/db-utils.git",
     "@elm-slate/db-events": "git://github.com/elm-slate/db-events.git",
-    "bunyan": "^1.8.0",
+    "@elm-slate/db-utils": "git://github.com/elm-slate/db-utils.git",
+    "bunyan": "^1.8.9",
     "bunyan-format": "^0.2.1",
     "co": "^4.6.0",
     "co-read": "^0.1.1",
     "commander": "^2.9.0",
-    "is_js": "^0.8.0",
-    "ramda": "^0.19.1"
+    "is_js": "^0.9.0",
+    "ramda": "^0.23.0"
   },
   "scripts": {
     "patch": "npm version patch && git push --follow-tags",
