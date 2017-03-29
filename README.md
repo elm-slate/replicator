@@ -1,7 +1,6 @@
-# slate-replicator
-Postgresql Event Source Table Replicator For slate
+# Slate Event Source Table Replicator
 
-The purpose of the slate-replicator is to copy a table of immutable events from a Postgresql Event Source database to an events table in one or more Destination databases.
+The purpose of the slate-replicator is to copy a table of immutable events from an Event Source database to an events table in one or more Destination databases.
 
 Replication is triggered by events being added to the Event Source database events table.
 
