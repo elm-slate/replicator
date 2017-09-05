@@ -1,6 +1,6 @@
 {
-  "name": "@elm-slate/slate-replicator",
-  "version": "0.2.1",
+  "name": "@elm-slate/replicator",
+  "version": "0.2.2",
   "description": "",
   "bin": {
     "slate-replicator": "bin/run.js"
@@ -16,10 +16,6 @@
     "commander": "^2.9.0",
     "is_js": "^0.9.0",
     "ramda": "^0.23.0"
-  },
-  "scripts": {
-    "patch": "npm version patch && git push --follow-tags",
-    "minor": "npm version minor && git push --follow-tags"
   },
   "author": ""
 }
