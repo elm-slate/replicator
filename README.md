@@ -7,7 +7,7 @@ Replication is triggered by events being added to the Event Source database even
 slate-replicator requires node version 6 or greater.
 
 # Installation
-> npm install -g git://github.com/elm-slate/slate-replicator
+> npm install -g git://github.com/elm-slate/replicator
 
 # Usage
 
